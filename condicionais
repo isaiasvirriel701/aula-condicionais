@@ -1,0 +1,117 @@
+/*let condicao1 = true;
+
+if (condicao1){
+//como o valor da condicao e true ,
+//o codigo desse bloco e executado
+console.log('entrei no if 1!');
+}
+
+
+let condicao2 = false;
+
+if (condicao2){
+//como o valor da condiçao e false,
+//o codigo desse bloco nao e executado
+console.log('entrei no if 2!');    
+}
+*/
+/*
+//EXERCICIO 1
+function numeros(num1, num2){
+if(num1 === num2)
+{return "os numeros sao iguais succeso";
+}else{return"os numeros sao diferentes";
+}    
+}
+
+const num1 = Number(prompt("digite o primeiro numero:"));
+const num2 = Number(prompt("digite o segundo numero:"));
+console.log(numeros(num1,num2));*/
+
+/*
+EXERCICIO1.2
+function verificaIdade(nome,idade) {
+if (idade >= 18){
+return 'fulano, voce pode dirigir';    
+}else{
+return 'fulano, voce nao pode dirigir';
+}
+}
+
+const nome = prompt("digite o nome");
+const idade = prompt("digite a idade");
+console.log(verificaIdade(nome,idade));*/
+/*
+EXERCICIO1.3
+let condicao = false 
+
+if (condicao){
+    console.log('entrei no if!')
+} else {
+    //como o valor da condicao e false,
+    //o codigo do bloco else sera executado 
+    console.log('entrei no else!')
+} */
+//EXERCICIO2
+/*
+function numeros(num1, num2){
+    if(num1 === num2)
+    {return "os numeros sao iguais succeso";
+    }else{return"os numeros sao diferentes";
+    }    
+    }
+    
+    const num1 = Number(prompt("digite o primeiro numero:"));
+    const num2 = Number(prompt("digite o segundo numero:"));
+    console.log(numeros(num1,num2)); 
+*/
+// EXERCICIO3
+/*
+function numeros(num1, num2){
+    if (num1 > num2) {
+return ("o primeiro numero e maior que o segundo numero.");
+} else if (num1 < num2) {
+    return ("o primeiro numero e menor que o segundo numero.");
+} else {
+    return ("o primeiro numero e igual ao segundo numero.");
+}
+}4
+const num1 = Number(prompt("digite o primeiro numero:"));
+    const num2 = Number(prompt("digite o segundo numero:"));
+    console.log(numeros(num1,num2)); 
+    */
+/*
+let paisDeOrigem
+switch (paisDeOrigem){
+    case 'brasil':
+        console.log('brasileiro')
+        break
+    case'EUA':
+    console.log('norte americano')
+        break
+    case 'inglaterra':
+        console.log('ingles')
+        break
+    default:
+        console.log('nacionalidade nao encontrada')
+        break
+    }
+    */    
+// EXERCICIO4 
+/*
+let pokemons = ""; 
+switch (pokemons) {
+case "bulbasauro":
+    console.log("planta e veneno")
+    break;
+case "charmander":
+    console.log("fogo")
+    break;
+case "squirtle":
+    console.log("agua")
+    break;
+default:
+    console.log("pokemon nao encontrado")
+     break;
+    }
+*/
